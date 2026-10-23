@@ -1,0 +1,6 @@
+{
+  "name": "dappfence-ens-signer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "npm ci",
+  "appPort": ["127.0.0.1:4100:4100"]
+}

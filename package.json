@@ -1,0 +1,16 @@
+{
+  "name": "dappfence-ens-signer",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@dappfence/core": "0.1.2",
+    "@dappfence/manifest-tools": "0.1.2",
+    "@ipld/dag-pb": "4.2.0",
+    "ethers": "6.17.0",
+    "ipfs-unixfs": "13.1.2",
+    "multiformats": "14.0.5"
+  }
+}
